@@ -4,5 +4,4 @@ def reverse_each_word(sentence)
     word.reverse
     word << " "
   end
-  response.chomp(" ")
 end
