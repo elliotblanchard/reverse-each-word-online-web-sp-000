@@ -5,5 +5,5 @@ def reverse_each_word(sentence)
     response << word.reverse
     response << " "
   end
-  response
+  response.chomp(" ")
 end
